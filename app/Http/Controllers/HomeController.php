@@ -30,4 +30,9 @@ class HomeController extends Controller
     {
         return view('todos.todohome');
     }
+
+    public function avatar()
+    {
+        return view('config.avatar');
+    }
 }

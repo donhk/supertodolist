@@ -38,6 +38,8 @@ then run
     composer install
     npm install
     npm run dev
+    php artisan migrate
+    php artisan storage:link
 
 ## How to run the app
 
